@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id = "start-container">
+        <div class= "large-font">Quiz! Code For Your Life!</div>
+        <button class="start-button">Lets Get It On!</button>
+
+    </header>
+
+    <main>
+        
+        <section>
+            <div class="card quiz-time">
+                <div class="large-font">Code Or Die!</div>
+                <div id = "Questions" class = "hide"> 
+                    <h2 id = "Question-title"></h2>
+                    <div id = "Choices" class = "Choices"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="large-font card Score">
+                Score
+            </div>
+            <div class="score-container">
+              <h2>Correct: <span class="correct">0</span></h2>
+              <h2>Incorrect: <span class="incorrect">0</span></h2>
+              <button class="reset-button">Restart Quiz</button>
+            </div>
+            <div class="card timer">
+                <div class= "timer-text">
+                <div class= "large-font timer-count"id = "time"></div>
+
+                <h3>seconds left</h3>
+            </div>
+            </div>
+         </section>
+         <div id = "endscreen" class = "hide">
+             <h2>Just barely got out alive...</h2>
+             <p>Your kill count was <span id = "final-score"></span></p>
+             <p>Scratch your initial here, dog <input type="text"id = "initials">
+            <button id = "submit">Deliver Yer Initials</button></p>
+
+         </div>
+    </main>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,1 +1,3 @@
 # QUIZHW
+
+So I designed this quizz using html, css, and two javascript pages. I used a seperate script page for the questions on the quiz on the advice of my tutor. I think things were going pretty well, and I got the quiz to start and the timer to start running, but ran out of time. I'd be happy to attempt to finish and resubmit, as you can see I think I have all the structure correct, I just wasn't able to connect towards the end in time. Bah
