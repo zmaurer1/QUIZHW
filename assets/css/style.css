@@ -60,9 +60,9 @@
   
   section {
     flex: 0 auto;
-    padding: 8px;
+    padding: 8p x;
     margin-top: 50px;
-    background-color: white;
+    background-color: midnightblue;
     border-radius: 8px;
   }
   
