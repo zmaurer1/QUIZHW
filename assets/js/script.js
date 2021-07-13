@@ -97,7 +97,12 @@ function getHighScores(){
         olContainer.appendChild(listTag)
     })
 }
-resetButton.addEventListener("click", window.location.reload)
+document.getElementById("resetButton").addEventListener("click", function(event){
+    event.preventDefault()
+    window.location.reload()
+})
+
 startBtn.addEventListener("click", startquiz)
 submitButton.onclick=saveHighScore
 getHighScores()
+resetButton.addEventListener("click", console.log("click"))
